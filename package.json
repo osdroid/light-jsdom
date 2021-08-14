@@ -1,5 +1,5 @@
 {
-  "name": "jsdom",
+  "name": "light-jsdom",
   "version": "17.0.0",
   "description": "A JavaScript implementation of many web standards",
   "keywords": [
@@ -85,7 +85,6 @@
   },
   "browser": {
     "canvas": false,
-    "vm": "./lib/jsdom/vm-shim.js",
     "./lib/jsdom/living/websockets/WebSocket-impl.js": "./lib/jsdom/living/websockets/WebSocket-impl-browser.js"
   },
   "scripts": {
